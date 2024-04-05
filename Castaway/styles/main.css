@@ -1,0 +1,26 @@
+:root {
+  --dark: #191919;
+  --accent: #118da8;
+}
+
+body {
+  background-color: var(--dark);
+  color: white;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  max-width: 1300px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}

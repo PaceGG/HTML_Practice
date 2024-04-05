@@ -1,0 +1,64 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.header{
+    color: #d7794a;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 25px 30px;
+}
+
+
+.nav{
+    /* background-image: url('navbg.jpg'); */
+    background-color: #b7bcbe;
+    background-size: cover 800px;
+    /* height: 800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-bar{
+    background-color: rgba(0, 0, 0, .25);
+    display: flex;
+    padding-left: 60px;
+}
+.nav-item{
+    padding: 30px 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-item:hover{
+    background-color: rgba(0, 179, 240, .10);
+    cursor: pointer;
+    color: black;
+}
+.welcome{
+    display: flex;
+    justify-content: end;
+    margin: 100px;
+}
+.welcome-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 50px;
+    color: #d7794a;
+    text-transform: uppercase;
+    font-weight: 400;
+}

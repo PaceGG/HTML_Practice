@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Шапка с отступами и логотипом</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .header {
+        background-color: #333;
+        padding: 10px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav {
+        flex-grow: 1;
+      }
+
+      .nav-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .nav-item {
+        margin-right: 20px; /* Отступы между элементами */
+      }
+
+      .nav-item:last-child {
+        margin-right: 0; /* Убираем отступ справа у последнего элемента */
+      }
+
+      .nav-item a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .logo {
+        /* Здесь стили для логотипа */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="https://placeholder.co/100x30" alt="" />
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">Главная</a></li>
+            <li class="nav-item"><a href="#">О нас</a></li>
+            <li class="nav-item"><a href="#">Услуги</a></li>
+            <li class="nav-item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>

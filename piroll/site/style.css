@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+header{
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px;
+}
+
+.nav-bar>li{
+    display: inline;
+}
+
+.banner{
+    /* background-image: url('placehold.co/1366x670'); */
+    background-color: red;
+}

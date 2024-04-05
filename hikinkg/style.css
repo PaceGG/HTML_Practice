@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.nav-input{
+    height: 50px;
+    width: 170px;
+    background-color: #c3bfbc;
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 0 15px;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    right: 55px;
+}

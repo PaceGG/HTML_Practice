@@ -125,4 +125,28 @@
   .nav {
     justify-content: center;
   }
+  .platforms {
+    margin: 0 10px;
+  }
+  .platform_item_img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav_bar {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 18px;
+  }
+  .head_h3 {
+    font-size: 30px;
+  }
+  .platforms {
+    padding: 0;
+    margin: 0;
+  }
 }
